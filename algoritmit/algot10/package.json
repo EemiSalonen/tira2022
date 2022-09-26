@@ -1,0 +1,5 @@
+{
+  "dependencies": {
+    "bayes-classifier": "^0.0.5"
+  }
+}

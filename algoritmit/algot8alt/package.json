@@ -1,0 +1,15 @@
+{
+  "name": "algot9alt",
+  "version": "1.0.0",
+  "description": "",
+  "main": "algot9alt.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "js-regression": "^1.0.10",
+    "polynomial-regression": "^1.1.0"
+  }
+}

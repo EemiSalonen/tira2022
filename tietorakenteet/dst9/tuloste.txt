@@ -1,0 +1,31 @@
+Node {
+  compare: [Function: defaultComparator],
+  right: Node {
+    compare: [Function: defaultComparator],
+    right: null,
+    left: Node {
+      compare: [Function: defaultComparator],
+      right: [Node],
+      left: null,
+      value: 12
+    },
+    value: 23
+  },
+  left: Node {
+    compare: [Function: defaultComparator],
+    right: Node {
+      compare: [Function: defaultComparator],
+      right: null,
+      left: [Node],
+      value: 6
+    },
+    left: Node {
+      compare: [Function: defaultComparator],
+      right: null,
+      left: null,
+      value: 1
+    },
+    value: 2
+  },
+  value: 10
+}

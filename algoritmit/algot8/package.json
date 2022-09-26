@@ -1,0 +1,16 @@
+{
+  "name": "algot8",
+  "version": "1.0.0",
+  "description": "",
+  "main": "algot8.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "exponential-regression": "^1.0.2",
+    "ml-regression-exponential": "^2.1.0",
+    "regression": "^2.0.1"
+  }
+}

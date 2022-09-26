@@ -1,0 +1,5 @@
+{
+  "dependencies": {
+    "decision-tree": "^0.3.7"
+  }
+}
