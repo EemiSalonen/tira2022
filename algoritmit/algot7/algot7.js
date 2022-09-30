@@ -58,6 +58,4 @@ function genString(charset, n) {
   return string;
 }
 
-console.log(findLcs('GCACT', 'AGGCA'));
-
 module.exports = { findLcs, genString };
