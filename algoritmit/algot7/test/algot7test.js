@@ -10,7 +10,6 @@ describe('Testing algot5', () => {
 
   it('Should export functions', () => {
     expect(funcs.genString).to.be.a('Function');
-    expect(funcs.getAllSubstrs).to.be.a('Function');
     expect(funcs.findLcs).to.be.a('Function');
   });
 
@@ -22,25 +21,6 @@ describe('Testing algot5', () => {
     expect(str).to.include('T');
     expect(str).to.include('G');
     expect(str).to.include('C');
-  });
-
-  it('Function getAllSubstrs', () => {
-    expect(funcs.getAllSubstrs(s3)).to.have.members([
-      'A',
-      'AT',
-      'ATC',
-      'T',
-      'TC',
-      'C',
-    ]);
-    expect(funcs.getAllSubstrs(s4)).to.have.members([
-      'G',
-      'GC',
-      'GCA',
-      'C',
-      'CA',
-      'A',
-    ]);
   });
 
   it('Function findLcs', () => {
