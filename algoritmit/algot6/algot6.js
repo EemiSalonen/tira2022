@@ -40,10 +40,4 @@ function genString(charset, n) {
   return string;
 }
 
-console.log(
-  findLcsBrute(
-    genString(['A', 'B', 'C', 'D'], 1000),
-    genString(['A', 'B', 'C', 'D'], 1000)
-  )
-);
 module.exports = { getAllSubstrs, findLcsBrute, genString };

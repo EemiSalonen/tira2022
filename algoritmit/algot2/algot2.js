@@ -8,5 +8,4 @@ function collectFeedRec(str = '') {
 
   return collectFeedRec(str);
 }
-console.log(collectFeedRec());
 module.exports = collectFeedRec;
