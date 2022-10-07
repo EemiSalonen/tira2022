@@ -7,6 +7,7 @@ function union(coders) {
   const tempSet = new Set();
   for (const coder of coders) {
     coder.forEach((lang) => {
+      // Lisää kielet uuteen Settiin, josta luodaan unioni
       tempSet.add(lang);
     });
   }

@@ -26,7 +26,9 @@ function createSumMap(key, ...shops) {
   const tempMap = new Map();
   const tempShops = [...shops];
   tempShops.forEach((map) => {
+    // Tallennetaan kokonaissumma
     const total = sum(map);
+    // Hakee avaimen arvon
     const name = map.get(key);
     tempMap.set(name, total);
   });

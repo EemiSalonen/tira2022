@@ -12,7 +12,7 @@ function makeQueue(arr) {
   return queue;
 }
 /**
- *
+ * Stops at given stopper.
  * @param {Queue} myqueue
  * @param {number} stopper
  * @return {Queue}
@@ -27,7 +27,7 @@ function checkQueue(myqueue, stopper) {
   return myqueue;
 }
 /**
- *
+ * Empties queue and return contents as an array.
  * @param {Queue} queue
  * @return {Array}
  */
