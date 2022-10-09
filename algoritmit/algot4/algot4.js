@@ -1,8 +1,14 @@
 /* Funktion aikavaativuus on lineaarinen O(n) */
+/**
+ *
+ * @param {Array} arr
+ * @return {any}
+ */
 function findMostFreq(arr) {
   let mostFreq;
   const map = new Map();
   for (const x of arr) {
+    // Lisätään mappiin alkio jos sitä ei ole vielä lisätty ja jos on niin kasvatetaan kyseisen alkion arvoa mapissa
     if (!map.has(x)) {
       map.set(x, 1);
     } else {

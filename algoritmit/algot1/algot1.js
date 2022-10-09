@@ -1,5 +1,8 @@
 const readlineSync = require('readline-sync');
-
+/**
+ *
+ * @return {string} string
+ */
 function collectFeed() {
   let string = '';
 

@@ -1,3 +1,8 @@
+/**
+ *
+ * @param {string} str
+ * @return {string[]}
+ */
 function getAllSubstrs(str) {
   const subStrings = [];
 
@@ -9,7 +14,12 @@ function getAllSubstrs(str) {
   }
   return subStrings;
 }
-
+/**
+ *
+ * @param {string} s1
+ * @param {string} s2
+ * @return {string}
+ */
 function findLcsBrute(s1, s2) {
   const s1Substrs = new Set(getAllSubstrs(s1));
   const s2Substrs = new Set(getAllSubstrs(s2));
@@ -29,7 +39,12 @@ function findLcsBrute(s1, s2) {
   });
   return longestSubString;
 }
-
+/**
+ *
+ * @param {string} charset
+ * @param {number} n
+ * @return {string}
+ */
 function genString(charset, n) {
   let string = '';
 
